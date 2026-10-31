@@ -244,7 +244,7 @@ private final class PromoScene {
     static let captions = [
         Caption(title: "Every account.", sub: "One glance.", start: 7.0, end: 9.7),
         Caption(title: "See the wall coming.", sub: "Pace checks say when you'll run out.", start: 10.9, end: 14.7),
-        Caption(title: "Know the second it resets.", sub: "Then send the heavy tasks.", start: 16.9, end: 19.1, centered: true),
+        Caption(title: "Know as soon as it resets.", sub: "Then send the heavy tasks.", start: 16.9, end: 19.1, centered: true),
         Caption(title: "Spare resets?", sub: "Spend them before they expire.", start: 22.8, end: 24.0),
     ]
 
@@ -259,7 +259,7 @@ private final class PromoScene {
 
     static let cursor: [(t: Double, x: Double, y: Double)] = [
         (4.2, 1120, 640), (5.7, 800, 22), (6.6, 800, 22), (7.4, 760, 250), (9.0, 760, 250),
-        (9.85, 700.5, 56), (10.5, 700.5, 56), (11.3, 960, 330), (14.3, 960, 330), (15.0, 1180, 560),
+        (9.85, 700.5, 56), (10.5, 700.5, 56), (11.3, 790, 200), (14.3, 790, 200), (15.0, 1180, 560),
         (19.1, 1180, 560), (19.9, 800, 22), (20.6, 800, 22), (21.85, 811.5, 56), (22.4, 811.5, 56),
         (23.2, 900, 300),
     ]
@@ -637,7 +637,7 @@ private final class PromoScene {
             Color.black.opacity(0.35)
             VStack(spacing: 44) {
                 VStack(spacing: 12) {
-                    words("Connect every account.", size: 66, weight: .semibold, color: .white, start: T.connect + 0.1, at: t)
+                    words("Finds every account.", size: 66, weight: .semibold, color: .white, start: T.connect + 0.1, at: t)
                     words("Work and personal, side by side.", size: 32, weight: .medium, color: .white.opacity(0.62), start: T.connect + 0.35, at: t)
                 }
                 VStack(spacing: 0) {
